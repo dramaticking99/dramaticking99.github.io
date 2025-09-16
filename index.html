@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chetan - Portfolio</title>
+    <meta name="description" content="Professional portfolio of Chetan - Chromium Developer, iOS Developer, and Multi-Platform Software Engineer">
+    <meta name="keywords" content="chromium developer, ios developer, software engineer, portfolio, chetan, c++, swift, juce">
+    <meta name="author" content="Chetan Sanwariya">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Chetan<span>.dev</span></a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Chetan</span>
+                    </h1>
+                    <p class="hero-subtitle">Chromium Developer & Multi-Platform Software Engineer</p>
+                    <p class="hero-description">
+                        Passionate about low-level systems programming, mobile app development, and creating cross-platform solutions.
+                        I specialize in Chromium development, iOS/Android applications, and audio processing systems.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/Dramaticking" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/Chetan" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:cksanwariya6@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="assets/images/profile.jpg" alt=" Chetan Sanwariya" class="profile-img">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>Hello! I'm Chetan</h3>
+                    <p>
+                        I'm a Computer Engineering student at Delhi Technological University (2022-2026) with expertise in 
+                        low-level systems programming and mobile app development. My journey spans from Chromium browser development 
+                        to creating cross-platform audio applications and social media platforms.
+                    </p>
+                    <p>
+                        I specialize in C++ development, iOS/Android applications, and have experience working with 
+                        cutting-edge technologies like Chromium codebase, JUCE framework, and XMPP protocols. 
+                        I'm passionate about teaching and have mentored students in Swift development.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>4+</h4>
+                            <p>Professional Roles</p>
+                        </div>
+                        <div class="stat">
+                            <h4>2+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h4>5+</h4>
+                            <p>Tech Stacks</p>
+                        </div>
+                    </div>
+                    <a href="assets/documents/Chetan_Resume.pdf" download class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="about-img-container">
+                        <img src="assets/images/about-me.jpg" alt="About Chetan" class="about-img">
+                        <div class="floating-elements">
+                            <div class="floating-element" style="--delay: 0s">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="floating-element" style="--delay: 1s">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="floating-element" style="--delay: 2s">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Crafting digital experiences with modern tools</p>
+            </div>
+            
+            <div class="skills-platform-grid" data-aos="fade-up" data-aos-delay="200">
+                <!-- Mobile Platform -->
+                <div class="platform-card mobile-platform">
+                    <div class="platform-header">
+                        <div class="platform-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile Dev</h3>
+                        <p class="platform-subtitle">Cross-platform mobile applications</p>
+                    </div>
+                    <div class="platform-technologies">
+                        <div class="tech-item">
+                            <i class="fab fa-swift"></i>
+                            <span>Swift</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-cube"></i>
+                            <span>SwiftUI</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-android"></i>
+                            <span>Android SDK</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desktop Platform -->
+                <div class="platform-card desktop-platform">
+                    <div class="platform-header">
+                        <div class="platform-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h3>Desktop Software Dev</h3>
+                        <p class="platform-subtitle">Cross-platform desktop applications</p>
+                    </div>
+                    <div class="platform-technologies">
+                        <div class="tech-item">
+                            <i class="fas fa-music"></i>
+                            <span>JUCE</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-code"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-window-maximize"></i>
+                            <span>Native UI</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-cogs"></i>
+                            <span>System APIs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Platform -->
+                <div class="platform-card web-platform">
+                    <div class="platform-header">
+                        <div class="platform-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p class="platform-subtitle">Full-stack web solutions</p>
+                    </div>
+                    <div class="platform-technologies">
+                        <div class="tech-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-python"></i>
+                            <span>Django</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-chrome"></i>
+                            <span>Chromium</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">June 2025 - Present</div>
+                        <h3>Chromium Developer Intern</h3>
+                        <h4>Wootzapp</h4>
+                        <p>
+                            Contributed to the development of a custom Android browser built on Chromium.
+                            Worked on the low-level Chromium C++ codebase to implement browser features, UI enhancements, and performance optimizations.
+                            Collaborated on Android-side integrations for seamless browser functionality.
+                        </p>
+                        <div class="timeline-skills">
+                            <span>C++</span>
+                            <span>Chromium</span>
+                            <span>Android</span>
+                            <span>Java</span>
+                            <span>GN/Ninja</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Nov 2024 - Mar 2025</div>
+                        <h3>Multi-Platform DJ Mixing Software Developer</h3>
+                        <h4>Freelance Project</h4>
+                        <p>
+                            Developed and delivered multi-platform DJ mixing software featuring an intuitive UI and real-time audio manipulation.
+                            Focused on creating a seamless user experience with cross-platform compatibility and low-latency performance.
+                        </p>
+                        <div class="timeline-skills">
+                            <span>JUCE</span>
+                            <span>C++</span>
+                            <span>UI/UX Design</span>
+                            <span>Audio Processing</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Apr 2024 - Nov 2024</div>
+                        <h3>iOS Developer Intern</h3>
+                        <h4>ChatWise UK Limited</h4>
+                        <p>
+                            Developed multiple features for a social media application, implemented APIs, and optimized app performance.
+                            Performed debugging and optimizations on an XMPP-based chat system.
+                        </p>
+                        <div class="timeline-skills">
+                            <span>Swift</span>
+                            <span>Objective-C</span>
+                            <span>XMPP Protocol</span>
+                            <span>Core Data</span>
+                            <span>RESTful APIs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Nov 2023 - May 2024</div>
+                        <h3>App Development Instructor</h3>
+                        <h4>Namate24 Training Services (OPC) Private Limited</h4>
+                        <p>
+                            Developed and delivered a 6-month Swift boot camp covering foundational mobile app development.
+                            Mentored 2 students, empowering them to overcome challenges and successfully complete the program.
+                        </p>
+                        <div class="timeline-skills">
+                            <span>Swift</span>
+                            <span>Mentoring</span>
+                            <span>Mobile App Development</span>
+                            <span>Teaching</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="assets/images/infinite_DJ.jpg" alt="Infinite_DJ">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/dramaticking99/DJ_Project" target="_blank" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Infinite_DJ</h3>
+                        <p>Cross-platform DJ mixing software with intuitive UI and real-time audio manipulation. Features seamless user experience with cross-platform compatibility and low-latency performance for professional audio processing.</p>
+                        <div class="project-tech">
+                            <span>JUCE</span>
+                            <span>C++</span>
+                            <span>Audio Processing</span>
+                            <span>Cross-Platform</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="assets/images/chatwise.jpg" alt="Chatwise">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- No links for Chatwise -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Chatwise</h3>
+                        <p>iOS social media application with advanced messaging features. Developed multiple app features, implemented APIs, and optimized performance. Includes XMPP-based chat system for real-time communication.</p>
+                        <div class="project-tech">
+                            <span>Swift</span>
+                            <span>Objective-C</span>
+                            <span>XMPP Protocol</span>
+                            <span>Core Data</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta" data-aos="fade-up">
+                <a href="https://github.com/dramaticking99?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <p>
+                        I'm always interested in new opportunities and exciting projects. 
+                        Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <a href="mailto:cksanwariya6@gmail.com" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>cksanwariya6@gmail.com</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/Dramaticking" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/Chetan" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/dramaticking99" target="_blank" class="social-link">
+                            <i class="fab fa-github-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <a href="#home">Chetan<span>.dev</span></a>
+                    </div>
+                    <p>Building digital experiences with passion and precision.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Chetan Sanwariya. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> and lots of coffee</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
