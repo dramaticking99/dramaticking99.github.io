@@ -60,4 +60,4 @@ Pushed to `main` → served by GitHub Pages.
 
 ## Contact
 
-**Chetan Sanwariya** — [github/dramaticking99](https://github.com/dramaticking99) · [linkedin/in/chetan](https://linkedin.com/in/Chetan) · cksanwariya6@gmail.com
+**Chetan Sanwariya** — [github/dramaticking99](https://github.com/dramaticking99) · [linkedin/in/chetan](https://www.linkedin.com/in/chetan-557562272/) · cksanwariya6@gmail.com
